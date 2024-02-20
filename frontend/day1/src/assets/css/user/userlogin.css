@@ -1,0 +1,65 @@
+.uhlogin
+{
+    color:#AAD7D9;
+    
+}
+.userform-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height:80vh;
+    margin-right:20%;
+    
+
+}
+.form-field{
+    padding:10px;
+}
+input{
+   
+    width: 160%;
+    height:40px;
+    background-color: #EEEDEB;
+    border-left: 5px solid #92C7CF;
+    border-right-color:#EEEDEB;
+    border-top:2px solid #EEEDEB;
+    border-bottom-color: #EEEDEB;
+    
+}
+label{
+    font-size: 20px;
+}
+.button
+{
+    background-color: #AAD7D9;;
+    border-radius: 5px;
+    padding:15px;
+    color:white;
+    width:150%
+    
+}
+.lbutton
+{
+    margin-left:5%;
+    width:100%;
+}
+.signup
+{
+    flex:1;
+    color:black;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:20%;
+}
+.already
+{
+    
+    margin-right: -10%;
+}
+.already-container
+{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+

@@ -1,0 +1,23 @@
+.register-container
+{
+    display:flex;
+    width: calc(100vw - 40px);
+    height: 600px;
+    margin:0 20px;
+    
+}
+.register-container>div:first-child
+{
+    flex:4;
+    background-color: #92C7CF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.register-container>div:last-child
+{
+    flex:2;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}

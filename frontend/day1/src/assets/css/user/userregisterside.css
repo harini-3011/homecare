@@ -1,0 +1,27 @@
+.userregisterside
+{
+    position:relative;
+    color:white;
+    margin-top: 20%;
+    margin-right:40%;
+    
+}
+.logo
+{
+    position: absolute;
+    top: -190px;;
+    left:-90px;
+}
+.logoimg
+{
+    width:40%
+}
+.rmsg
+{
+    margin-right: 15%;
+}
+.rdes
+{
+    margin-left: 10%;
+    text-align:justify
+}

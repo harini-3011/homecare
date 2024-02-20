@@ -1,0 +1,31 @@
+
+.group
+{
+    width:100%;
+    margin-top:-212px;
+}
+.userloginside
+{
+   position:relative;
+   
+}
+.lmsg
+{
+    margin-right: 60%;
+    margin-top:10%;
+    color:white;
+}
+.submsg
+{
+    color:#FBF9F1;
+    font-size: 20px;
+    margin-right: 35%;
+    
+}
+
+.submsg1
+{
+    color:#FBF9F1;
+    margin-right:49%;
+    font-size: large;
+}
