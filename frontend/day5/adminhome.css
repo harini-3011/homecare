@@ -1,0 +1,267 @@
+.sidebar-container
+{
+    
+   position:relative;
+}
+.sidebar {
+    width: 250px;
+    height: 47%;
+    position: fixed;
+    background: #333;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    
+  }
+ 
+  .sidebar-header img{
+    width:100%;
+    height:auto;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 50px;
+    color: white;
+  }
+  .sidebar-image
+  {
+    position:relative;
+    
+  }
+  .sidebar-image img{
+    width:100%;
+    height: auto;
+  }
+  .sidebar-overlay {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    width: 30%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+    text-align: center;
+  }
+  .sidebar-overlay h1{
+       font-family: sans-serif;
+       font-size: large;
+       margin-top: 10%;
+  }
+  .sidebar-overlay p{
+       font-family: sans-serif;
+       margin-top: 15%;
+  }
+  .add-card-button {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 5%;
+    border-radius: 10px;
+    width:10%
+  }
+  
+  .admincard {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+    margin-right: 10px;
+    height: 400px;
+  }
+  .admincard:last-child
+  {
+    margin-right: 0;
+  }
+  
+  .delete-card-button{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    width:30%;
+    height: 10%;
+  }
+  .addservice
+  {
+    margin-left: 3%;
+    font-family: sans-serif;
+  }
+  .addservice-container
+  {
+    display:flex;
+   
+  }
+  .admincard-container
+  {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .admincardimg
+  {
+    width: 100%;
+  }
+  .admineditbtn
+  {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border: none;
+    width: 30%;
+    height: 10%;
+  }
+  .adminlabel
+  {
+    font-family: sans-serif;
+  }
+  .admininput1
+  {
+    border-left:none;
+    border-top: none;
+    border-right:none;
+    border-bottom:3px solid rgba(0,0,0,0.5);
+    width:200px;
+    background-color:white;
+    padding:5px;
+  }
+  .admininput2
+  {
+    width:300px;
+    padding:5px;
+  }
+  .admininput3
+  {
+    border-left:none;
+    border-top: none;
+    border-right:none;
+    width:200px;
+    background-color:white;
+    padding:5px;
+  }
+  .admininput4
+  {
+    border-left:none;
+    border-top: none;
+    border-right:none;
+    border-bottom:3px solid rgba(0,0,0,0.5);
+    width:200px;
+    background-color:white;
+    padding:5px;
+  }
+  .save-card-button
+  {
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+    width: 30%;
+    height: 10%;
+  }
+  .feedback-container {
+    margin-top: 20px;
+    
+  }
+  
+  .feedback-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    margin-left: 3%;
+  }
+  
+  .customer-feedback {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .feedback-item {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  
+   
+  }
+  .feedback-item p:first-child
+  {
+    margin-top:10%;
+    
+  }
+  .feedback-item p {
+    margin: 5px 0;
+    font-family: sans-serif;
+    margin-left:10%;
+  }
+  
+  .feedback-item strong {
+    font-weight: bold;
+  }
+  
+  .feedback-item:last-child {
+    margin-right: 0;
+  }
+  .sidebarcontent
+  {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color:white
+  }
+  .customer-list-container {
+    margin-top: 20px;
+  }
+  
+  .customer-list-container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    margin-left: 3%;
+  }
+  
+  .customer-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .customer-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .customer-item p {
+    margin: 0;
+  }
+  
+  .customer-name {
+    font-weight: bold;
+  }
+  
+  .customer-email {
+    color: #666;
+  }
+  
+  .customer-service {
+    font-style: italic;
+  }
+  
+  
