@@ -1,0 +1,75 @@
+.connect-container
+{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    gap:10px;
+    justify-content: center;
+
+}
+.connect-content
+{
+    background-color: black;
+    opacity: 0.5;
+    width:80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 6%;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    
+}
+.connect-image
+{
+    width:85%;
+    align-self: center;
+    padding:20px;
+    margin-top:30%;
+    margin-left: 5%;
+    border-radius: 15%;
+    height: 80%;
+   
+}
+.feedbackinput
+{
+    width:40%;
+    border-radius: 10px;
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px rgba(0, 0, 0, 0.2);
+    color:black;
+    padding:10px;
+}
+.feedbackcontainer
+{
+    
+    margin-top: 15%;
+    padding:10px;
+    margin-left:30%;
+}
+.feedback{
+    width:45%;
+    height:100px;
+}
+.range
+{
+    width:40%;
+    color:black;
+}
+.feedbackcontainer p{
+    color:white;
+    font-size: 30px;
+    margin-top: 5%;
+}
+.rangecontainer
+{
+    display: flex;
+}
+.feedbacksub
+{
+    width:40%;
+    height: 30px;
+    border-radius: 10px;
+
+}
